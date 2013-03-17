@@ -1,5 +1,10 @@
 ps based instant message client, written in bash
 
+====installation====
+just copy the 3 files to your PATH
+
+
+===usage===
 to listen for messages, run mesgd
 I recommend adding mesgd& to your shell rc
 
