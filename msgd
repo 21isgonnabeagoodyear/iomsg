@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while true
+do
+ps -A -o "%U %a"|grep `whoami`|grep msgpost
+sleep 1
+done
+

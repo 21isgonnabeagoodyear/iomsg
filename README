@@ -1,0 +1,7 @@
+ps based instant message client, written in bash
+
+to listen for messages, run mesgd
+I recommend adding mesgd& to your shell rc
+
+to send a message, use msg
+msg targetusername "this is the message"
