@@ -2,7 +2,8 @@
 
 while true
 do
-ps -A -o "%U %a"|grep `whoami`|grep msgpost
+ps -A -N -U `whoami` -o "%a"|grep `whoami`|grep msgpost
+#ps -A -o "%a"|grep `whoami`|grep msgpost
 sleep 1
 done
 

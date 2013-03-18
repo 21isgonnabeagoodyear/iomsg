@@ -10,3 +10,5 @@ I recommend adding mesgd& to your shell rc
 
 to send a message, use msg
 msg targetusername "this is the message"
+you can also get a list of all currently listening users by running
+msg
